@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/mediu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* transparent */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden; /* pentru colțuri rotunjite */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #d6f5d6;
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.85);
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+/* stil doar pentru pagina actiuni */
+.actiuni-page section {
+    background: rgba(255, 255, 255, 0.85);
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* imagine doar pe pagina actiuni */
+.actiuni-page img {
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* video doar pe pagina actiuni */
+.actiuni-page video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+.actiuni-page a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.actiuni-page a:hover {
+    background-color: darkgreen;
+}
